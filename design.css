@@ -1,4 +1,16 @@
 body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #2F4F4F 0%,
+    #2F4F4F 50%,
+    grey 50%,
+    grey 100%
+  );
+}
+
+body {
   background-color: #2F4F4F !important;
 }
 
@@ -39,7 +51,6 @@ body {
   position: absolute;
   width: 100%;
   left: -60px;
-  top: 90%;
   
 }
 
@@ -51,9 +62,7 @@ body {
 .discord {
   position: absolute;
   width: 100%;
-  left: 0px;
-  top: 90%;
-  
+  left: 0px;  
 }
 
 .discord img {
@@ -65,7 +74,6 @@ body {
   position: absolute;
   width: 100%;
   left: 60px;
-  top: 90%;
 }
 
 .github img {
@@ -87,4 +95,6 @@ body {
   border-radius: 0%;
   border: 0px;
   width:35%;
+  
+  margin-top: 2cm;
 }
